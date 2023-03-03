@@ -1,0 +1,6 @@
+github.com/TwiN/go-color v1.4.0 h1:fNbOwOrvup5oj934UragnW0B1WKaAkkB85q19Y7h4ng=
+github.com/TwiN/go-color v1.4.0/go.mod h1:0QTVEPlu+AoCyTrho7bXbVkrCkVpdQr7YF7PYWEtSxM=
+github.com/ahmedsat/gw-engine v0.0.0-20230303130709-1185ea124e22 h1:lA+WuP8WfcZtFesYJIFwkfXUqpNHYaQh+E9pzwgfAaQ=
+github.com/ahmedsat/gw-engine v0.0.0-20230303130709-1185ea124e22/go.mod h1:f5m8NoAXSMGUZrniZenuzytsHYsFJGVos+9qnXzMEQM=
+github.com/veandco/go-sdl2 v0.4.33 h1:cxQ0OdUBEByHxvCyrGxy9F8WpL38Ya6hzV4n27QL84M=
+github.com/veandco/go-sdl2 v0.4.33/go.mod h1:OROqMhHD43nT4/i9crJukyVecjPNYYuCofep6SNiAjY=
