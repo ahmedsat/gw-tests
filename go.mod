@@ -3,8 +3,8 @@ module github.com/ahmedsat/gw-tests
 go 1.19
 
 require (
+	github.com/ahmedsat/go-math-helper v0.0.0-20230305130824-9058fa94c9c0
 	github.com/ahmedsat/gw-engine v0.0.0-20230305113933-e2eb0075e11b
-	github.com/vkngwrapper/math v1.1.1
 )
 
 require (
