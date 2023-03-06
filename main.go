@@ -4,9 +4,9 @@ import (
 	"embed"
 
 	"github.com/ahmedsat/go-math-helper/math32/colors"
-	"github.com/ahmedsat/go-math-helper/math32/vectors"
 	"github.com/ahmedsat/gw-engine/apps"
 	"github.com/ahmedsat/gw-engine/log"
+	vkngmath "github.com/vkngwrapper/math"
 )
 
 //go:embed shaders
@@ -22,15 +22,10 @@ var (
 var indices = []uint16{0, 1, 2, 2, 3, 0}
 
 var vertices = []apps.Vertex{
-	// {Vec3: vectors.Vec3{X: 0.0, Y: -0.8}, Color: red},
-	// {Vec3: vectors.Vec3{X: 0.8, Y: 0.8}, Color: green},
-	// {Vec3: vectors.Vec3{X: -0.8, Y: 0.8}, Color: blue},
-	{Vec3: vectors.Vec3{X: -0.5, Y: -0.5}, Color: red},
-	{Vec3: vectors.Vec3{X: 0.5, Y: -0.5}, Color: green},
-	{Vec3: vectors.Vec3{X: 0.5, Y: 0.5}, Color: blue},
-	// {Vec3: vectors.Vec3{X: 0.5, Y: 0.5}, Color: blue},
-	{Vec3: vectors.Vec3{X: -0.5, Y: 0.5}, Color: yalow},
-	// {Vec3: vectors.Vec3{X: -0.5, Y: -0.5}, Color: red},
+	{Position: vkngmath.Vec2[float32]{X: -0.5, Y: -0.5}, Color: vkngmath.Vec3[float32]{X: 1, Y: 0, Z: 0}},
+	{Position: vkngmath.Vec2[float32]{X: 0.5, Y: -0.5}, Color: vkngmath.Vec3[float32]{X: 0, Y: 1, Z: 0}},
+	{Position: vkngmath.Vec2[float32]{X: 0.5, Y: 0.5}, Color: vkngmath.Vec3[float32]{X: 0, Y: 0, Z: 1}},
+	{Position: vkngmath.Vec2[float32]{X: -0.5, Y: 0.5}, Color: vkngmath.Vec3[float32]{X: 1, Y: 1, Z: 1}},
 }
 
 func main() {

@@ -6,7 +6,6 @@ BuildTags="debug"
 
 
 mkdir -p $BuildPath
-clear
 ./compile.sh &&
 go mod tidy &&
 go build -o $BuildPath/$AppName -v -tags $BuildTags && 
